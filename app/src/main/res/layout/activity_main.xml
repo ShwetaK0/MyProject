@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="Aimit College"
+       android:textSize="40dp"
+      android:textStyle="bold"
+       android:layout_marginHorizontal="50dp"
+      android:gravity="center"
+      android:layout_margin="45dp"
+      />
+
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:text="Name :"
+     android:textStyle="normal"
+     android:textSize="30dp"
+     android:layout_marginLeft="20dp"
+
+  />
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Class :"
+       android:textStyle="normal"
+       android:textSize="30dp"
+       android:layout_marginLeft="20dp"
+
+       />
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Roll :"
+       android:textStyle="normal"
+       android:textSize="30dp"
+       android:layout_marginLeft="20dp"
+
+       />
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Address :"
+       android:textStyle="normal"
+       android:textSize="30dp"
+       android:layout_marginLeft="20dp"
+
+       />
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Email id :"
+       android:textStyle="normal"
+       android:textSize="30dp"
+       android:layout_marginLeft="20dp"
+
+       />
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="50dp"
+      android:text="Login"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:scrollbarSize="30dp"
+       android:textAlignment="gravity"
+       android:layout_marginTop="30dp"
+
+
+      />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="-49dp"
+        
+
+
+
+        />
+</LinearLayout>
